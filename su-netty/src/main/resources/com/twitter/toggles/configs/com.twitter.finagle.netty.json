@@ -1,0 +1,24 @@
+{
+  "toggles": [
+    {
+      "id": "com.twitter.finagle.netty.poolReceiveBuffers",
+      "description": "Enable pooling of receive buffers on Netty 4",
+      "fraction": 0.0
+    },
+    {
+      "id": "com.twitter.finagle.netty.UseNativeEpoll",
+      "description": "Enable native epoll transport for netty4. Requires linux-x86_64",
+      "fraction": 0.0
+    },
+    {
+      "id": "com.twitter.finagle.netty.EnableReferenceLeakTracking",
+      "description": "Enable reference leak tracking. Exports a counter to 'finagle/netty4/reference_leaks'. Requires io.netty.leakDetectionLevel env variable >= simple. See https://netty.io/wiki/reference-counted-objects.html#wiki-h3-11",
+      "fraction": 0.0
+    },
+    {
+      "id": "com.twitter.finagle.netty.UsePooling",
+      "description": "Enable pooling",
+      "fraction": 0.0
+    }
+  ]
+}
